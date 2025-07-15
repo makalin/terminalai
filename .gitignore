@@ -1,0 +1,20 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# IDEs and editors
+/.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Byebug command history
+.byebug_history 

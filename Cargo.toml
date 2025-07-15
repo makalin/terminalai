@@ -1,0 +1,27 @@
+[package]
+name = "terminalai"
+version = "0.1.0"
+edition = "2021"
+description = "A local, privacy-focused code interpreter in Rust."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] } 
+meval = "0.2" 
+plotters = "0.3" 
+chrono = "0.4" 
+regex = "1.10" 
+sysinfo = "0.30" 
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", features = ["blocking", "json"] } 
+zip = "0.6"
+tar = "0.4" 
+flate2 = "1.0" 
+rand = "0.8" 
+similar = "2.2" 
+image = "0.24" 
+arboard = "3.2" 
+notify = "6.1" 
+cron = "0.12" 
